@@ -3,7 +3,9 @@ my-bsl-http-server is a lightweight HTTP web server built entirely from scratch 
 The server binds to port 8080 and implements simple path-based routing:
 
 / — serves a landing/welcome page with a 200 OK response
+
 /about — serves an about page describing the project with a 200 OK response
+
 Any other path — serves a custom 404 Not Found page
 
 Each incoming request is logged to the terminal in real time, making it easy to observe the raw request/response cycle as it happens. This project serves as a hands-on introduction to socket programming, HTTP fundamentals, and basic server-side routing logic.
